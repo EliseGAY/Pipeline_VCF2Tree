@@ -65,7 +65,7 @@ CONDARC=.condarc snakemake --use-conda --conda-frontend mamba --executor slurm -
 ```
 It uses the SLURM executor plugin together with the cluster profile in `profiles/slurm/`, so each rule is submitted as its own SLURM job using the `resources:` (mem, cpus, runtime) declared in the Snakefile.
 
-### Locally / on a single machine
+### Locally / on a single machine (not available for now because all rules come with slurm parameters directly in the snakefile)
 ```bash
 snakemake --use-conda --conda-frontend mamba --cores <N>
 ```
