@@ -1,3 +1,7 @@
+## to do
+ - fill the profile file to add all slurm parameters by rule (allow the pipeline to run outside slurm if needed)
+ - add containers 
+
 # Pipeline_VCF2Tree
 
 A Snakemake 8 pipeline that turns a multi-sample VCF into a species phylogeny, designed to run on the IFB cluster (SLURM).
