@@ -1,0 +1,15 @@
+name: phylo_env
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pandas
+  - gatk4
+  - clustalo=1.2.4
+  - iqtree=3.0.1
+  - astral-tree=5.7.8
+  - pip
+  - pip:
+    - git+https://github.com/EliseGAY/Fasta_ToolsBox.git

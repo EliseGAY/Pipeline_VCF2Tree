@@ -1,0 +1,9 @@
+executor: slurm
+
+jobs: 100
+
+latency-wait: 60
+
+default-resources:
+  slurm_account: sogenant_supergene_mgraminicola
+  slurm_partition: fast

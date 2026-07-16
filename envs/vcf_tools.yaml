@@ -1,0 +1,9 @@
+name: vcf_tools
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - bcftools=>1.20
+  - samtools=>1.20
+  - gatk4

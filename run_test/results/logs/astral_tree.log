@@ -1,0 +1,129 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.8
+Gene trees are treated as unrooted
+2 trees read from results/data/astral/species_tree.newick
+index0
+All output trees will be *arbitrarily* rooted at americana
+
+======== Running the main analysis
+Number of taxa: 39 (6 species)
+Taxa: {atlantis=[ATL_C1_W1, ATL_C2_W1], americana=[CHI_C7_W2, CHI_C3_W1, CHI_C5_W2, CHI_C6_P2, CHI_C1_W2, CHI_C6_W1, CHI_C8_W1, CHI_C4_W1], nipponica=[15_1, 33_4, LH3_R1, 2022_9_7W1, 23_2, 3_1, 21_1, 8_1, 2022_9_4W1, LH4_R1], graminicola=[C15R1, C181R6, C135R1, 22_Q_A_S21, C180R12, C47R1, C52R1, C73R1, MNC_C2_W2, 20_Q_A_S19], sicula=[6_SIC, ES20A113W1, ES034, ES19A027W1, ES219, ES051, 5_SIC], outgroup=[SRR35414647, SRR35414640]}
+Taxon occupancy: {CHI_C7_W2=2, C15R1=2, 15_1=2, 6_SIC=2, 33_4=2, ATL_C1_W1=2, CHI_C3_W1=2, CHI_C5_W2=2, C181R6=2, ES20A113W1=2, C135R1=2, ES034=2, SRR35414647=2, SRR35414640=2, LH3_R1=2, CHI_C6_P2=2, CHI_C1_W2=2, ES19A027W1=2, 22_Q_A_S21=2, ES219=2, 2022_9_7W1=2, CHI_C6_W1=2, CHI_C8_W1=2, 23_2=2, 3_1=2, ATL_C2_W1=2, C180R12=2, 21_1=2, CHI_C4_W1=2, 8_1=2, ES051=2, C47R1=2, 2022_9_4W1=2, 5_SIC=2, C52R1=2, C73R1=2, MNC_C2_W2=2, LH4_R1=2, 20_Q_A_S19=2}
+Number of gene trees: 2
+0 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Building set of clusters (X) from gene trees 
+In second round sampling 4 rounds will be done
+------------------------------
+gradient0: 23
+------------------------------
+gradient1: 0
+------------------------------
+gradient2: 0
+------------------------------
+gradient3: 0
+Number of Clusters after addition by distance: 23
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:200
+polytomy size limit : 3
+discarded polytomies:  []
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+max k is :0
+Number of Clusters after addition by greedy: 23
+gradient0 in heuristiic: 23
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:200
+polytomy size limit : 3
+discarded polytomies:  []
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+max k is :0
+Number of Clusters after addition by greedy: 23
+gradient1 in heuristiic: 0
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:200
+polytomy size limit : 3
+discarded polytomies:  []
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+max k is :0
+Number of Clusters after addition by greedy: 23
+gradient2 in heuristiic: 0
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:200
+polytomy size limit : 3
+discarded polytomies:  []
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+max k is :0
+Number of Clusters after addition by greedy: 23
+gradient3 in heuristiic: 0
+partitions formed in 0.737 secs
+Dynamic Programming starting after 0.737 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 164502
+Polytree building time: 0.005 seconds.
+Counting unresolvable quartets ... 20682
+Number of quartet trees in the gene trees: 143820
+Size of largest cluster: 39
+Greedy score: 70122
+estimationFactor: 2.345939933259177
+Sub-optimal score: 70122
+Total Number of elements weighted: 23
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.4875677930746767
+Optimization score: 70122
+Optimal tree inferred in 1.627 secs.
+(atlantis,(sicula,(outgroup,(americana,(graminicola,nipponica)))));
+Final quartet score is: 130903
+Final normalized quartet score is: 0.9101863440411626
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{americana}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{graminicola}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{nipponica}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{graminicola, nipponica}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{outgroup}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{sicula}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{atlantis}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{sicula, atlantis}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 2:
+	{sicula, atlantis, outgroup}
+Extended species tree:
+((CHI_C7_W2,CHI_C3_W1,CHI_C5_W2,CHI_C6_P2,CHI_C1_W2,CHI_C6_W1,CHI_C8_W1,CHI_C4_W1)0.87:0.6931471805599453,(((C15R1,C181R6,C135R1,22_Q_A_S21,C180R12,C47R1,C52R1,C73R1,MNC_C2_W2,20_Q_A_S19)0.87:0.6931471805599453,(15_1,33_4,LH3_R1,2022_9_7W1,23_2,3_1,21_1,8_1,2022_9_4W1,LH4_R1)0.87:0.6931471805599453)0.51:0.09531017980432502,((SRR35414647,SRR35414640)0.87:0.6931471805599453,((6_SIC,ES20A113W1,ES034,ES19A027W1,ES219,ES051,5_SIC)0.59:0.1681369218019982,(ATL_C1_W1,ATL_C2_W1)0.58:0.15415067982725836)0.87:0.6931471805599453)0.42:0.0));
+Weight calculation took 0.01567827 secs
+ASTRAL finished in 4.631 secs
